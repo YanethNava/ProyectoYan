@@ -1,0 +1,75 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+}
+body{
+    background-color: rgb(220, 252, 249);
+}
+.contenedor{
+    width: 1000px;
+    height: 400px;
+    margin: 0px auto;
+}
+#navbar{
+    color: rgb(5, 5, 5);
+    overflow: auto;
+}
+#navbar a{
+    color: rgba(0, 0, 0, 0.952);
+}
+#navbar h1{
+     float: left;
+     padding-top: 20px;
+}
+#navbar ul{
+     list-style: none;
+     float: right;
+}
+#navbar ul li{
+     float: left;
+}
+#navbar ul li a{
+     display: block;
+     padding: 20px;
+     text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+     border-color: #71d5ee;
+     background: #FFF;
+     color: #080808;
+}
+
+.caja0{
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+
+}
+.caja1{
+    float: left;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color: black;
+    margin-top: 90px;
+    padding: 20px;
+    width: 600px;
+}
+.caja2{
+    float: left;
+    border-style: solid;
+    border-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.caja3{
+    float: left;
+    border-style: solid;
+    border-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+}
